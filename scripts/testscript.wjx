@@ -9,6 +9,9 @@ mapping {
     AppendMapping {
         trans "-wjx"
     }
+    TrimStrMapping {
+        trans "jx","77"
+    }
     AppendMapping {
         trans "->2021-12-12"
     }
