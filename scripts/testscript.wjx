@@ -1,0 +1,22 @@
+input {
+    TestInput {
+        p1 "from wjx"
+        accept "jack"
+    }
+}
+mapping {
+    TestMapping {}
+    AppendMapping {
+        trans "-wjx"
+    }
+    AppendMapping {
+        trans "->2021-12-12"
+    }
+    ToListMapping {}
+    ListAddPrefix2Map {
+        trans "开始"
+    }
+}
+output {
+    TestOutput {}
+}

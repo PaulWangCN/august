@@ -2,7 +2,6 @@ package com.wangjx.august.core;
 
 import groovy.lang.GroovyClassLoader;
 import groovy.lang.GroovyObject;
-import org.apache.commons.io.FileUtils;
 
 import java.io.File;
 
@@ -30,10 +29,9 @@ public class Executor {
         }
     }
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         Executor executor = new Executor();
-        String content = FileUtils.readFileToString(new File("scripts/upper-str.wjx"), "UTF-8");
-        executor.exec("src/main/java/com/wangjx/august/fixflow/FixFlowInterpreter.groovy", "interpreter", null);
+        executor.exec("src/main/java/com/wangjx/august/dynamicflow/DynamicFlowInterpreter.groovy", "interpreter", null);
     }
 
 }
