@@ -1,5 +1,7 @@
 package com.wangjx.august.dynamicflow
 
+import com.wangjx.august.dynamicflow.base.AbstractMapping
+
 
 class ListAddPrefix2Map extends AbstractMapping {
 

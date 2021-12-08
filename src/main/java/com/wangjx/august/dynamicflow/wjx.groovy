@@ -1,6 +1,6 @@
-import com.wangjx.august.dynamicflow.BaseInput
-import com.wangjx.august.dynamicflow.BaseMapping
-import com.wangjx.august.dynamicflow.BaseOutput
+import com.wangjx.august.dynamicflow.base.BaseInput
+import com.wangjx.august.dynamicflow.base.BaseMapping
+import com.wangjx.august.dynamicflow.base.BaseOutput
 import com.wangjx.august.core.ScanJar
 
 allFile = [:]

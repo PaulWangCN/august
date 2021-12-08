@@ -1,5 +1,7 @@
 package com.wangjx.august.dynamicflow
 
+import com.wangjx.august.dynamicflow.base.AbstractInput
+
 class TestInput extends AbstractInput {
 
     String p1;

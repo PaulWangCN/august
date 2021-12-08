@@ -1,4 +1,4 @@
-package com.wangjx.august.dynamicflow
+package com.wangjx.august.dynamicflow.base
 
 interface BaseMapping extends BaseContext {
 
